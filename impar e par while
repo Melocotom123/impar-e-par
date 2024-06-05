@@ -1,0 +1,18 @@
+contador = 0
+while contador < 5:
+    num = int(input("Digite um número: "))
+    if num == 0:
+     print("Neutro")
+    elif num % 2 == 0:
+     print("Par")
+    else:
+     print("Ímpar")
+
+    if num >= 1:
+     print("Positivo")
+    elif num == 0:
+     print
+    else:
+     print("Negativo")
+
+    contador += 1
